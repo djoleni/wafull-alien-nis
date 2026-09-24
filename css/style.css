@@ -773,6 +773,26 @@ footer ul a:hover { color: #fff; }
         text-align: center;
         padding: 20px 15px;
     }
+
+    .footer-contact {
+    justify-content: center;
+ 
+  }
+
+    .footer-contact li {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+
+    /* Centriranje linkova i tekstualnih blokova sa ikonama */
+    .footer-contact a,
+    .footer-contact .hours {
+      justify-content: center;
+      text-align: center;
+         margin-right: 10px;
+
+    }
   
 }
 
